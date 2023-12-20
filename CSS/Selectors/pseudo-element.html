@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element selector</title>
+    <style>
+       p::after{
+        content: url(tap\ logo.jpg);
+       }
+       p::before{
+        content: url(tap\ logo.jpg);
+       }
+       p::first-line{
+        color: brown;
+        font-size: medium;
+       }
+       p::first-letter{
+        color: rgb(35, 0, 100);
+        font-family: cursive;
+       }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    Repellendus facere error iure dolorum et, dolores officia nesciunt quam odio,
+    doloremque dolore tempora quisquam vel ullam impedit ex quibusdam veritatis magni.</p>
+    
+</body>
+</html>

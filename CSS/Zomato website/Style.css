@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    border: black;
+    float: left;
+    background-color: aqua;
+    padding-right: 30px;
+}
+
+    
+  a:hover{
+    background-color: antiquewhite;
+  }
